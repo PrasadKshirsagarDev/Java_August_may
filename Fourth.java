@@ -20,6 +20,7 @@ class Pune{
 		System.out.println("This is constructor Call");
 	}
 	public Pune(int i) {
+		this();
 		System.out.println("This is Pramaterized Constructor");
 	}
 	public void one()
